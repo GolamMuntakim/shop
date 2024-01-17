@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* nav bar style */
+.header{
+    background-color: gainsboro;
+}
+.header-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 10px;
+    
+}
+.nav-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.shop-style{
+    color: cornflowerblue;
+}
+.items-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+.items-container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    
+}
+.items-container .login-button{
+    padding: 10px 10px;
+    background-color:black;
+    color: whitesmoke;
+    border-radius: 5px;
+}
+
+/* nav bar style */
+/* banner section starts */
+.banner-section{
+    display: flex;
+    max-width: 1200px;
+    max-height: 500px;
+    margin: 0 auto;
+    background-color: darkcyan;
+}
+.text-container{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.banner-image{
+    width: 50%;
+}
+.banner-image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.banner-heading{
+    color: pink;
+    font-size: 60px;
+}
+.heading-two{
+    font-family: 'Lemon', serif;
+    font-size: 30px;
+    color: rgb(197, 134, 168);
+    font-size: 30;
+}
+.fa-brands{
+    cursor: pointer;
+    gap: 10px;
+    margin-top: 20px;
+}
+.icon{
+    display: flex;
+    gap: 20px;
+}
+button{
+    cursor: pointer;
+    margin-top: 20px;
+    height: 50px;
+    width: 120px;
+    background-color:whitesmoke;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.discount{
+    position: relative;
+    bottom: 500px;
+    left: 400px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+}
+.pro{
+    text-align: center;
+    margin-top: 20px;
+}
+/* banner section ends */
+/* product style start */
+.product-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+.grid-container{
+    margin-top: 10px;
+    min-width:400px;
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+   
+}
+.single-product{
+    width: 30%;
+    padding: 10px;
+    background-color:slategray;
+    border-radius: 10px;
+}
+.single-product img{
+    display: block;
+    width: 70%;
+    margin: 0 auto;
+    border-radius: 7px;
+}
+.headng-icons{
+   display: flex; 
+   justify-content: space-between;
+   align-items: center;
+}
+/* product style end */
+/* gallary section starts */
+.gallary-section{
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-top:50px;
+}
+.gallary-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 10px;
+
+}
+.single-gallary{
+    flex-basis: 300px;
+    box-shadow:box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+.single-gallary img{
+    object-fit:cover ;
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    margin: 20px 0;
+}
+.foot{
+    margin-top: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 100px;
+    background-color: darkcyan;
+    border-radius: 5px;
+}
+.foot small{
+    color: whitesmoke;
+    padding-top: 40px;
+    font-size: 15px;
+    font-weight: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* gallary section ends */

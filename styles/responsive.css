@@ -1,0 +1,57 @@
+@media screen and (max-width:676px) {
+    body{
+        margin: 0;
+    }
+    .header-section, .items-container{
+        flex-direction: column;
+    }
+    .nav-container{
+        margin-left: 100px;
+    }
+    .items-container{
+        margin-left: 100px;
+        gap: 15px;
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+    .text-container{
+        width: 100%;
+
+    
+    }
+    .banner-heading{
+        font-size: 30px;
+    }
+    .heading-two{
+        font-size:20px;
+    }
+    .banner-image{
+        margin-top: 10px;
+        width: 100%;
+    
+    }
+    .discount{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 10px;
+        position: relative;
+        left: 270px;
+        width: 100px;
+        height: 100px;
+    }
+    .grid-container{
+        flex-direction: column;
+        min-width: 200px;
+    }
+    .pro{
+        margin-top:200px;
+    }
+    .single-product{
+        width: 100%;
+    }
+    .gallary-section,h1{
+        margin-top:-180px;
+    }
+}
